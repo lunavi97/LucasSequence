@@ -1,10 +1,13 @@
 package com.udemy.app;
 
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class RepunitTests {
+import com.udemy.app.LucasSequence;
+
+public class FibonacciPolyTest {
 
   LucasSequence app;
 
@@ -15,8 +18,6 @@ public class RepunitTests {
 
   @Test
   public void test() {
-    Assert.assertEquals(1093, app.repunit(7, 3));
-    Assert.assertEquals(22621, app.repunit(5, 12));
   }
 
 }

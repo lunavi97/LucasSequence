@@ -1,10 +1,13 @@
 package com.udemy.app;
 
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class PellLucasTests {
+import com.udemy.app.LucasSequence;
+
+public class JacobsthalTest {
 
   LucasSequence app;
 
@@ -15,8 +18,8 @@ public class PellLucasTests {
 
   @Test
   public void test() {
-    Assert.assertEquals(6, app.pellLucas(2));
-    Assert.assertEquals(198, app.pellLucas(6));
+    Assert.assertEquals(11, app.jacobsthal(5));
+    Assert.assertEquals(2731, app.jacobsthal(13));
   }
 
 }

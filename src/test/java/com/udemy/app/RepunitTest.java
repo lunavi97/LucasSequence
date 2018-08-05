@@ -1,10 +1,13 @@
 package com.udemy.app;
 
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class FermatTests {
+import com.udemy.app.LucasSequence;
+
+public class RepunitTest {
 
   LucasSequence app;
 
@@ -15,8 +18,8 @@ public class FermatTests {
 
   @Test
   public void test() {
-    Assert.assertEquals(17, app.fermat(2));
-    Assert.assertEquals(65537, app.fermat(4));
+    Assert.assertEquals(1093, app.repunit(7, 3));
+    Assert.assertEquals(22621, app.repunit(5, 12));
   }
 
 }

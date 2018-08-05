@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ ChebyshevTests.class, FibonacciPolyTests.class, LucasPolyTests.class })
+@SuiteClasses({ ChebyshevTest.class, FibonacciPolyTest.class, LucasPolyTest.class })
 public class PolynomialTests {
 
 }

@@ -1,10 +1,13 @@
 package com.udemy.app;
 
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class FibonacciPolyTests {
+import com.udemy.app.LucasSequence;
+
+public class LucasPolyTest {
 
   LucasSequence app;
 

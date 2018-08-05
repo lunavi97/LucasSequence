@@ -1,10 +1,13 @@
 package com.udemy.app;
 
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class LucasTests {
+import com.udemy.app.LucasSequence;
+
+public class FibonacciTest {
 
   LucasSequence app;
 
@@ -15,8 +18,8 @@ public class LucasTests {
 
   @Test
   public void test() {
-    Assert.assertEquals(7, app.lucas(4));
-    Assert.assertEquals(123, app.lucas(10));
+    Assert.assertEquals(3, app.fibonacci(4));
+    Assert.assertEquals(89, app.fibonacci(11));
   }
 
 }

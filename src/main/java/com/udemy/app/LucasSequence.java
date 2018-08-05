@@ -15,6 +15,7 @@ public class LucasSequence {
   // Numbers
 
   /**
+   * Fibonacci number.
    * @param n - Number
    * @return Fibonacci number
    */
@@ -23,6 +24,7 @@ public class LucasSequence {
   }
 
   /**
+   * Lucas number.
    * @param n - Number
    * @return Lucas number
    */
@@ -31,6 +33,7 @@ public class LucasSequence {
   }
 
   /**
+   * Pell number.
    * @param n - Number
    * @return Pell number
    */
@@ -39,6 +42,7 @@ public class LucasSequence {
   }
 
   /**
+   * Pell Lucas number.
    * @param n - Number
    * @return Pell Lucas number
    */
@@ -47,6 +51,7 @@ public class LucasSequence {
   }
 
   /**
+   * Jacobsthal number.
    * @param n - Number
    * @return Jacobsthal number
    */
@@ -55,6 +60,7 @@ public class LucasSequence {
   }
 
   /**
+   * Jacobsthal-Lucas number.
    * @param n - Number
    * @return Jacobsthal-Lucas number
    */
@@ -63,6 +69,7 @@ public class LucasSequence {
   }
 
   /**
+   * Mersenne number.
    * @param n - Number
    * @return Mersenne number
    */
@@ -71,6 +78,7 @@ public class LucasSequence {
   }
 
   /**
+   * Fermat number.
    * @param n - Number
    * @return Fermat number
    */
@@ -81,6 +89,7 @@ public class LucasSequence {
   // Polynomials
 
   /**
+   * Fibonacci polynomial evaluated at x.
    * @param n - Number
    * @param x - Number to evaluate
    * @return Fibonacci polynomial evaluated at x
@@ -90,6 +99,7 @@ public class LucasSequence {
   }
 
   /**
+   * Lucas polynomial.
    * @param n - Number
    * @param x - Number to evaluate
    * @return Lucas polynomial evaluated at x
@@ -99,6 +109,7 @@ public class LucasSequence {
   }
 
   /**
+   * Chebyshev of first kind.
    * @param n - Number
    * @param x - Number to evaluate
    * @return Chebyshev of first kind evaluated at x
@@ -108,6 +119,7 @@ public class LucasSequence {
   }
 
   /**
+   * Chebyshev of second kind.
    * @param n - Number
    * @param x - Number to evaluate
    * @return Chebyshev of second kind evaluated at x
@@ -117,6 +129,7 @@ public class LucasSequence {
   } 
 
   /**
+   * Repunit.
    * @param n - Number
    * @param b - Base
    * @return Repunit
