@@ -1,0 +1,5 @@
+language: java
+sdk: oraclejdk8
+
+install: false
+script: mvn clean test
