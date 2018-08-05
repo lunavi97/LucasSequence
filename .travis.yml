@@ -3,3 +3,7 @@ sdk: oraclejdk8
 
 install: false
 script: mvn clean test
+
+cache:
+    directories:
+    - $HOME/.m2
