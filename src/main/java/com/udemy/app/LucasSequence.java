@@ -53,7 +53,9 @@ public class LucasSequence {
    * @return Pell Lucas number
    */
   public int pellLucas(int n) {
-    throw new RuntimeException("Method unimplemented");
+    if (n <= 1) return 2;
+    
+    return 2 * pellLucas(n - 1) + pellLucas(n - 2);
   }
 
   /**
