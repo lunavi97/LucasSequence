@@ -75,7 +75,9 @@ public class LucasSequence {
    * @return Jacobsthal-Lucas number
    */
   public int jacobsthalLucas(int n) {
-    throw new RuntimeException("Method unimplemented");
+    if (n <= 1) return 2 - n;
+    
+    return jacobsthalLucas(n - 1) + 2 * jacobsthalLucas(n - 2);
   }
 
   /**
