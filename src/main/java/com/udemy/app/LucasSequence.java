@@ -84,9 +84,12 @@ public class LucasSequence {
    * Mersenne number.
    * @param n - Number
    * @return Mersenne number
+   * @throws Exception 
    */
   public int mersenne(int n) {
-    throw new RuntimeException("Method unimplemented");
+    if (n < 1) throw new RuntimeException("Debe ser un entero mayor a cero");
+
+    return (int) (Math.pow(2, n)) - 1;
   }
 
   /**
