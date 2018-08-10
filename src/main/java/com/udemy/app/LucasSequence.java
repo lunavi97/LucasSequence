@@ -98,7 +98,7 @@ public class LucasSequence {
    * @return Fermat number
    */
   public int fermat(int n) {
-    throw new RuntimeException("Method unimplemented");
+    return (int) (Math.pow(2, Math.pow(2, n))) + 1;
   }
 
   // Polynomials
